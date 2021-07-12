@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.topnav button {
+    text-align: left;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgba(255, 255, 255, 0.884);
+    color: black;
+}
+
+.background {
+    background-image: url("park2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.background h1,
+h2 {
+    background-color: black;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.background button {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.content {
+    background-color: rgb(77, 9, 104);
+    color: white;
+    text-align: center;
+}
+
+.content h1 {
+    text-shadow: 2px 2px rgb(221, 21, 171);
+    margin: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: expanded;
+}
+
+.content h2,
+h3,
+p {
+    background-color: rgb(77, 9, 104);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px 15px;
+    height: 70%;
+    background-color: rgb(0, 0, 0);
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    align-content: center;
+}
+
+.column h3 {
+    margin: 20px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.column p {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.row h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.row marquee {
+    margin: 10px;
+    font-size: larger;
+    color: whitesmoke;
+    background-color: red;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table-column;
+}
+
+.footer {
+    background-color: black;
+    padding: 20px;
+}
+
+.footer p,
+h4 {
+    background-color: black;
+    color: seashell;
+    text-align: center;
+}
